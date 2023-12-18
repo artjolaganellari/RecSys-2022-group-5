@@ -1,0 +1,6 @@
+python lstm_with_contents.py
+
+split -l 2500001 -d results_lstm_with_contents.csv results_lstm_with_contents_
+mv results_lstm_with_contents_00 results/results_lstm_with_contents_1.csv
+mv results_lstm_with_contents_01 results/results_lstm_with_contents_2.csv
+rm results_lstm_with_contents.csv
